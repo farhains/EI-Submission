@@ -26,7 +26,7 @@ This program showcases the use of two design patterns:
 
 In brief, your To-Do List Manager code demonstrates adherence to SOLID principles and OOP concepts as follows:
 
-# SOLID Principles
+## SOLID Principles
 
 1. **Single Responsibility Principle (SRP)**:
    - Each class has a single, well-defined responsibility, making the code maintainable.
@@ -43,7 +43,7 @@ In brief, your To-Do List Manager code demonstrates adherence to SOLID principle
 5. **Dependency Inversion Principle (DIP)**:
    - Classes depend on abstractions, promoting flexibility in component swapping.
 
-# OOP Concepts
+## OOP Concepts
 
 1. **Encapsulation**:
    - State and behavior of tasks are encapsulated within the `Task` class, hidden from external access.
