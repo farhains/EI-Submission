@@ -24,6 +24,47 @@ This program showcases the use of two design patterns:
 
 2. **Builder Pattern**: The `TaskBuilder` class is responsible for creating tasks with optional attributes. It allows for easy and flexible task creation.
 
+In brief, your To-Do List Manager code demonstrates adherence to SOLID principles and OOP concepts as follows:
+
+# SOLID Principles
+
+1. **Single Responsibility Principle (SRP)**:
+   - Each class has a single, well-defined responsibility, making the code maintainable.
+
+2. **Open/Closed Principle (OCP)**:
+   - The code is open for extension (new features) without modifying existing code.
+
+3. **Liskov Substitution Principle (LSP)**:
+   - While not explicitly using inheritance, the code allows for easy extension and specialization.
+
+4. **Interface Segregation Principle (ISP)**:
+   - Classes provide focused and minimal sets of methods related to their responsibilities.
+
+5. **Dependency Inversion Principle (DIP)**:
+   - Classes depend on abstractions, promoting flexibility in component swapping.
+
+# OOP Concepts
+
+1. **Encapsulation**:
+   - State and behavior of tasks are encapsulated within the `Task` class, hidden from external access.
+
+2. **Abstraction**:
+   - Abstract representations of tasks and mementos are created, allowing high-level manipulation.
+
+3. **Inheritance** (implicitly):
+   - The code is designed for future use of inheritance when extending functionality.
+
+4. **Polymorphism**:
+   - Tasks are interacted with in a generic way, supporting flexibility in task handling.
+
+5. **Modularity**:
+   - Code is organized into separate classes, enhancing readability and maintainability.
+
+6. **Composition**:
+   - Complex objects (e.g., task lists) are composed from simpler components (e.g., tasks).
+
+These principles and concepts contribute to a well-structured and extensible codebase, allowing for future enhancements and modifications while maintaining code integrity and readability.
+
 ## Usage
 
 1. **Adding a Task**: To add a task, select option 1, enter the task description, and, optionally, provide a due date in DD-MM-YYYY format.
