@@ -2,19 +2,19 @@
 console based to do list using python
 # To-Do List Manager with Python
 
-## This Python program is a To-Do List Manager that allows users to manage tasks with descriptions, due dates, and completion statuses. It employs design patterns such as the Memento Pattern and Builder Pattern to create a robust and extensible task management system.
+This Python program is a To-Do List Manager that allows users to manage tasks with descriptions, due dates, and completion statuses. It employs design patterns such as the Memento Pattern and Builder Pattern to create a robust and extensible task management system.
 
 ## Features
 
-- Add Task: Users can add tasks to the list, including optional attributes like due dates.
+- **Add Task**: Users can add tasks to the list, including optional attributes like due dates.
 
-- Mark Completed: Tasks can be marked as completed, changing their status from pending to completed.
+- **Mark Completed**: Tasks can be marked as completed, changing their status from pending to completed.
 
-- Delete Task: Users can delete tasks from the list.
+- **Delete Task**: Users can delete tasks from the list.
 
-- Undo and Redo: The program supports undo and redo functionality, allowing users to reverse or replay their actions.
+- **Undo and Redo**: The program supports undo and redo functionality, allowing users to reverse or replay their actions.
 
-- View Tasks: Users can view all tasks, completed tasks, and pending tasks separately.
+- **View Tasks**: Users can view all tasks, completed tasks, and pending tasks separately.
 
 ## Design Patterns
 
@@ -26,17 +26,17 @@ This program showcases the use of two design patterns:
 
 ## Usage
 
-1. Adding a Task: To add a task, select option 1, enter the task description, and, optionally, provide a due date in DD-MM-YYYY format.
+1. **Adding a Task**: To add a task, select option 1, enter the task description, and, optionally, provide a due date in DD-MM-YYYY format.
 
-2. Marking a Task as Completed: Choose option 2 and enter the task description to mark it as completed.
+2. **Marking a Task as Completed**: Choose option 2 and enter the task description to mark it as completed.
 
-3. Deleting a Task: Select option 3 and enter the task description to delete it.
+3. **Deleting a Task**: Select option 3 and enter the task description to delete it.
 
-4. Undo and Redo: Options 4 and 5 allow you to undo and redo actions, respectively.
+4. **Undo and Redo**: Options 4 and 5 allow you to undo and redo actions, respectively.
 
-5. Viewing Tasks: Options 6, 7, and 8 let you view all tasks, completed tasks, and pending tasks.
+5. **Viewing Tasks**: Options 6, 7, and 8 let you view all tasks, completed tasks, and pending tasks.
 
-6. Exiting the Program: Choose option 9 to exit the program.
+6. **Exiting the Program**: Choose option 9 to exit the program.
 
 ## Logging
 
